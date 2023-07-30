@@ -16,7 +16,7 @@
 
 body {
   font-family: var(--primary-font);
-  color: var(--dark);
+  color: var(--text);
   background-color: var(--white-background);
   font-size: 16px;
 }
@@ -70,7 +70,7 @@ button:focus {
 }
 
 .logo-studio-footer {
-  color: var(--white-background);
+  color: var(--light);
 }
 
 .nav-header-text {
@@ -86,10 +86,14 @@ button:focus {
 }
 .header-address-text {
   color: var(--text);
-  font-style: normal;
+
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 .header-address-text:hover,
@@ -128,6 +132,13 @@ footer {
   background-color: var(--dark);
 }
 
+.hero-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state);
@@ -139,12 +150,27 @@ footer {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .second-text {
+  color: var(--dark);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+}
+
+.hidden-section {
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+  background-color: var(--light);
+}
+
+.employee {
+  background-color: var(--white-background);
 }

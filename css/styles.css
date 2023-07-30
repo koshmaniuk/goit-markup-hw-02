@@ -41,6 +41,8 @@ button {
 .portfolio-button {
   color: var(--primary-brand);
   background-color: var(--light);
+  font-size: 16px;
+  letter-spacing: 0.04em;
 }
 
 .hero-button {
@@ -106,7 +108,7 @@ button:focus {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .main-sub-text {
@@ -161,10 +163,6 @@ footer {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-}
-
-.hidden-section {
-  letter-spacing: 0.02em;
 }
 
 .team-section {
